@@ -12,7 +12,7 @@ let colours = { p1: null, p2: null };
 let turn = 'p1';
 let scores = { p1: 0, p2: 0 };
 
-const c = document.querySelector('canvas');
+const c = document.getElementById('gridCanvas');
 var ctx = c.getContext('2d');
 
 function Dot(x, y, radius, gx, gy) { 
