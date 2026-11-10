@@ -24,7 +24,7 @@ function Dot(x, y, radius, gx, gy) {
   this.draw = function() { 
     ctx.beginPath(); 
     ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false); 
-    ctx.fillStyle = 'white'; 
+    ctx.fillStyle = 'black'; 
     ctx.fill(); 
   }
 }
