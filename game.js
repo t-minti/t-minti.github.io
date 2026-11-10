@@ -12,9 +12,7 @@ let colours = { p1: null, p2: null };
 let turn = 'p1';
 let scores = { p1: 0, p2: 0 };
 
-
-
-var c = document.querySelector('canvas');
+const c = document.querySelector('canvas');
 var ctx = c.getContext('2d');
 
 function Dot(x, y, radius, gx, gy) { 
@@ -24,10 +22,10 @@ function Dot(x, y, radius, gx, gy) {
   this.gx = gx; 
   this.gy = gy; 
   this.draw = function() { 
-    c.beginPath(); 
-    c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false); 
-    c.fillStyle = 'white'; 
-    c.fill(); 
+    ctx.beginPath(); 
+    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false); 
+    ctx.fillStyle = 'white'; 
+    ctx.fill(); 
   }
 }
 
