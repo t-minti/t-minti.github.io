@@ -11,7 +11,7 @@ function createGrid(w, l){
       sqr.textContent("0")
       document.body.appendChild(sqr);
     }
-    const newRow = document.createElement("<br>");
+    const newRow = document.createElement("br");
     document.body.appendChild(newRow);
   }
 }
