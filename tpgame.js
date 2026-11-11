@@ -1,7 +1,7 @@
 var width = 3;
 var length = 3;
 const grid = document.getElementById("playGrid");
-var round = document.getElementById("round");
+var round = document.getElementById("roundCount").textContent;
 
 
 
