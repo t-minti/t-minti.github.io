@@ -3,9 +3,9 @@ var length = 3;
 const grid = document.getElementById("playGrid");
 var round = document.getElementById("roundCount").textContent;
 
-function createGrid(){
-  for (let w = 0; w < width; w++) {
-    for (let l = 0; l < length; l++) {
+function createGrid(w, l){
+  for (let i = 0; i < l; i++) {
+    for (let j = 0; j < w; j++) {
       const sqr = document.createElement("button");
       sqr.classList.add("gridSqr");
       sqr.innertext("0")
@@ -15,4 +15,4 @@ function createGrid(){
     document.body.appendChild(newRow);
   }
 }
-createGrid.call()
+createGrid.call(width, length)
