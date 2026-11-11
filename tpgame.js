@@ -8,7 +8,7 @@ function createGrid(w, l){
     for (let j = 0; j < w; j++) {
       const sqr = document.createElement("button");
       sqr.classList.add("gridSqr");
-      sqr.innertext("0")
+      sqr.textContent("0")
       document.body.appendChild(sqr);
     }
     const newRow = document.createElement("<br>");
