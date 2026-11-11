@@ -14,3 +14,4 @@ function createGrid(){
     document.body.appendChild(newRow);
   }
 }
+createGrid.call()
