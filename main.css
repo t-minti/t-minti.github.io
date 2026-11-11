@@ -1,3 +1,12 @@
+:root{
+  
+}
+
 heading{
   text-align: center;
+}
+
+.play-grid{
+  display: grid;
+  
 }
