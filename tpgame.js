@@ -2,6 +2,7 @@ var width = 3;
 var length = 3;
 const grid = document.getElementById("playGrid");
 var round = document.getElementById("roundCount").textContent;
+var r = document.querySelector(':root');
 
 function createGrid(w, l){
   for (let i = 0; i < l; i++) {
