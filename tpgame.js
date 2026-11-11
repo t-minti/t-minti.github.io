@@ -1,6 +1,9 @@
 var width = 3;
 var length = 3;
 const grid = document.getElementById("playGrid");
+var round = document.getElementById("round");
+
+
 
 for (let w = 0; w < width; w++) {
   for (let l = 0; l < length; l++) {
