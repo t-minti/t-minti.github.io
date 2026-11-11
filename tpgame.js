@@ -10,7 +10,7 @@ function createGrid(){
       sqr.classList.add("gridSqr");
       document.body.appendChild(sqr);
     }
-    const newRow = document.createElement("tr");
+    const newRow = document.createElement("<br>");
     document.body.appendChild(newRow);
   }
 }
