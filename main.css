@@ -1,5 +1,6 @@
 :root{
-  
+  --col: 3;
+  --row: 3;
 }
 
 heading{
@@ -8,5 +9,7 @@ heading{
 
 .play-grid{
   display: grid;
-  
+  grid-template-columns: repeat(var(col), 1fr);
+  grid-template-rows: repeat(var(row), 1fr);
 }
+
