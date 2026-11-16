@@ -12,11 +12,11 @@ heading{
 }
 
 .p1-turn{
-  align-content: flex-start;
+  text-align: left;
 }
 
 .p2-turn{
-  align-content: flex-end;
+  text-align: right;
 }
 
 .play-grid{
