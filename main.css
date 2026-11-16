@@ -29,12 +29,12 @@
 .sqr {
   box-sizing: border-box;
   aspect-ratio: 1 / 1;
-  padding: 15px;
-  font-size: 16px;
+  padding: 5%;
+  font-size: 100%;
   cursor: pointer;
   background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 0.5em solid #ccc;
+  border-radius: 6%;
 }
 
 .sqr:hover {
