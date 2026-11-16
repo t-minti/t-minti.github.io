@@ -1,14 +1,14 @@
-var width = 3;
-var length = 3;
+var col = 3;
+var row = 3;
 const grid = document.getElementById("playGrid");
 var round = document.getElementById("roundCount").textContent;
 var r = document.querySelector(':root');
 
-function createGrid(w, l){
-  for (let i = 0; i < l; i++) {
-    for (let j = 0; j < w; j++) {
+function createGrid(c, r){
+  for (let i = 0; i < r; i++) {
+    for (let j = 0; j < c; j++) {
       const sqr = document.createElement("button");
-      sqr.classList.add("gridSqr");
+      sqr.classList.add("sqr");
       sqr.textContent("0")
       document.body.appendChild(sqr);
     }
@@ -16,4 +16,4 @@ function createGrid(w, l){
     document.body.appendChild(newRow);
   }
 }
-createGrid.call(width, length)
+createGrid.call(col, row)
