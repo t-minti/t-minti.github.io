@@ -9,11 +9,10 @@ function createGrid(c, r){
     for (let j = 0; j < c; j++) {
       const sqr = document.createElement("button");
       sqr.classList.add("sqr");
-      sqr.textContent("0")
       document.body.appendChild(sqr);
     }
     const newRow = document.createElement("br");
     document.body.appendChild(newRow);
   }
 }
-createGrid.call(col, row)
+createGrid.(col, row)
