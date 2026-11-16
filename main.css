@@ -7,10 +7,23 @@ heading{
   text-align: center;
 }
 
+.score-board{
+  display: inline-flex;
+}
+
+.p1-turn{
+  align-content: flex-start;
+}
+
+.p2-turn{
+  align-content: flex-end;
+}
+
 .play-grid{
   display: grid;
   grid-template-columns: repeat(var(col), 1fr);
   grid-template-rows: repeat(var(row), 1fr);
+  text-align: center;
 }
 
 .sqr {
