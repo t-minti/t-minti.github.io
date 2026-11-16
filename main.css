@@ -21,7 +21,8 @@
 
 .play-grid{
   display: grid;
-  max-width: 90vw;
+  width: 90vw;
+  height: auto;
   grid-template-columns: repeat(var(--col), 1fr);
   grid-template-rows: repeat(var(--row), 1fr);
   text-align: center;
