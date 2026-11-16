@@ -15,4 +15,4 @@ function createGrid(c, r){
     document.body.appendChild(newRow);
   }
 }
-createGrid.(col, row)
+createGrid(col, row)
