@@ -3,7 +3,7 @@ var row = 3;
 const grid = document.getElementById("playGrid");
 const playGrid = [];
 var round = document.getElementById("roundCount").textContent;
-var r = document.querySelector(':root');
+var rt = document.querySelector(':root');
 
 function createGrid(c, r){
   playGrid.length = 0;
