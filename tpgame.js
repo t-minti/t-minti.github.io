@@ -6,6 +6,7 @@ var round = document.getElementById("roundCount").textContent;
 var r = document.querySelector(':root');
 
 function createGrid(c, r){
+  playGrid.length = 0;
   if (!grid) return;
   grid.innerHTML = "";
   for (let i = 0; i < r; i++) {  
@@ -15,7 +16,6 @@ function createGrid(c, r){
       const sqr = document.createElement("button");
       sqr.classList.add("sqr");
       sqr.textContent = `(${i}, ${j})`;
-      grid.appendChild(sqr);
       playGrid[i][j] = sqr;
       rowDiv.appendChild(sqr);
     }
